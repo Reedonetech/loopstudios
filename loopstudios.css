@@ -1,0 +1,507 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topnav{
+    background: url('images/desktop/image-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    height: 70vh;
+    width: 100%;
+    padding: 30px 50px 30px 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: hsl(0, 0%, 100%);
+}
+.del{
+    border: solid 1px hsl(0, 0%, 100%);
+    width: 30vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.del p{
+    text-transform: uppercase;
+    font-size: 40px;
+    width: 22vw;
+    color: hsl(0, 0%, 100%);
+    font-weight: lighter;
+    line-height: 40px;
+}
+.interactive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    position: relative;
+
+}
+.interactive img{
+    height: 400px;
+}
+.vr{
+    background-color: #fff;
+    position: relative;
+    right: 100px;
+    top: 100px;
+    padding: 80px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.vr p{
+    width: 23vw;
+    font-size: 12px;
+    line-height: 20px;
+    color:  hsl(0, 0%, 55%);
+
+}
+.vr h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 0%);
+}
+.allevent{
+    padding: 30px 50px 30px 50px;
+}
+.create{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px 30px 0px;
+    color: hsl(0, 0%, 0%);
+}
+.but{
+    width: 8vw;
+    height: 5vh;
+    color: hsl(0, 0%, 0%);
+}
+.create h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.event{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.deep{
+    background: url(images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 18vw;
+    position: relative;
+}
+.deep p{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+    padding-left: 50px;
+    width: 5vw;
+}
+.arc{
+    background: url(images/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 18vw;
+    position: relative;
+}
+.arc p{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+    padding-left: 50px;
+    width: 5vw;
+}
+.soccer{
+    background: url(images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 18vw;
+    position: relative;
+}
+.soccer p{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+    padding-left: 50px;
+    width: 150px;
+}
+.grid{
+    background: url(images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 18vw;
+    position: relative;
+}
+.grid p{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+    padding-left: 50px;
+    width: 5vw;
+}
+.up{
+    background: url(images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 18vw;
+    position: relative;
+}
+.up p{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+    padding-left: 20px;
+    width: 150px;
+}
+.pocket{
+    background: url(images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 18vw;
+    position: relative;
+}
+.pocket p{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+    padding-left: 50px;
+    width: 5vw;
+}
+.cur{
+    background: url(images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 18vw;
+    position: relative;
+}
+.cur p{
+    color:  hsl(0, 0%, 100%);
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+    padding-left: 50px;
+    width: 5vw;
+}
+.fisheye{
+    background: url(images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 18vw;
+    position: relative;
+}
+.fisheye p{
+    color:  hsl(0, 0%, 100%);
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+    padding-left: 50px;
+    width: 150px;
+}
+.footnav{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+}
+.footbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 50px 30px 50px;
+    /* align-items: start; */
+}
+.foot-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.new{
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    height: 4vh;
+}
+.new2{
+    display: none;
+}
+.footlist{
+    list-style: none;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.loop{
+    font-size: 12px;
+    display: flex;
+    
+
+}
+@media screen and (max-width:950px) {
+    .topnav{
+        background: url("/images/mobile/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navbar img{
+        width: 120px;
+    }
+    .navlist{
+        display: none;
+    }
+    .del{
+        width: 110%;
+    }
+    .del p{
+        width: 100%;
+    }
+
+    .interactive img{
+        height: fit-content;
+        width: 100%;
+    }
+    .interactive{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .vr{
+        position: relative;
+        left: 0px;
+        gap: 0px;
+        top: 0px;
+        padding: 30px;
+    }
+    .vr h2{
+        font-size: 27px;
+        text-align: center;
+    }
+    .vr p{
+        width: 100%;
+    }
+    .allevent{
+        padding-top: 0px;
+    }
+    .create{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .create h2{
+        font-size: 27px;
+    }
+    .but{
+        display: none;
+    }
+    .event{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        
+    }
+    .deep{
+        width: 100%;
+        height: 20vh;
+        background: url(/images/mobile/image-deep-earth.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .deep p{
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        top: 100px;
+    }
+    .arc{
+        width: 100%;
+        height: 20vh;
+        background: url(/images/mobile/image-night-arcade.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .arc p{
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        top: 100px;
+    }
+    .soccer{
+        width: 100%;
+        height: 20vh;
+        background: url(/images/mobile/image-soccer-team.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .soccer p{
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        top: 100px;
+    }
+    .grid{
+        width: 100%;
+        height: 20vh;
+        background: url(/images/mobile/image-grid.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .grid p{
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        top: 100px;
+    }
+    .up{
+        width: 100%;
+        height: 20vh;
+        background: url(/images/mobile/image-from-above.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .up p{
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        top: 100px;
+    }
+    .pocket{
+        width: 100%;
+        height: 20vh;
+        background: url(/images/mobile/image-pocket-borealis.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pocket p{
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        top: 100px;
+    }
+    .cur{
+        width: 100%;
+        height: 20vh;
+        background: url(/images/mobile/image-curiosity.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cur p{
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        top: 100px;
+    }
+    .fisheye{
+        width: 100%;
+        height: 20vh;
+        background: url(/images/mobile/image-fisheye.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fisheye p{
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        top: 100px;
+    }
+    .footnav{
+        width: 100%;
+    }
+    .foot-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .new{
+        display: none;
+    }
+    .new2{
+        display: block;
+        display: flex;
+        gap: 15px;
+    }
+    .footbar{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        padding:20px;
+        gap: 20px;
+    }
+    .footlist{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .log{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .footnav{
+        height: 50vh;
+    }
+    .loop{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .btn{
+        width: 40vw;
+        height: 5vh;
+    }
+    .all{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+}
